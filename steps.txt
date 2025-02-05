@@ -3,9 +3,43 @@ This documents enlists the procedure or steps folowed to execute the Project
 Steps:
 
 Git
-1. Initialize Git in Terminal(local system where you hve your repository)
+1. Initialize Git in Terminal(local system where you have your repository)
 2. Git init the folder
 3. Git push the folder to Github
+
+~~Git commands
+
+~ git branch
+(to check if you a branch)
+
+~ git checkout -b main
+(creating a branch name main0)
+
+~ git add **
+(add filenames **)
+
+~ git commit 
+(to commit the added files)
+
+~ git push origin main
+(to push the committed files to main branch which is in GitHub (remote))
+
+~ git remote -v
+(to verify remote repository)
+
+if not set use :
+git remote add origin git@github.com:bonalation13/Task1.git
+
+if we cannot connect to remote repository in GitHub, check ssh access
+a.Create
+ssh-keygen -t rsa -b 4096 -C "bharathbonala13@yahoo.in"
+b.Add ssh key in settings of GitHub
+c.Add ssh key to ssh agent in terminal : eval "$(ssh-agent -s)"
+                                         ssh-add ~/.ssh/id_rsa
+d. Test it : ssh -T git@github.com
+e. Change git remote to SSH : git remote set-url origin git@github.com:bonalation13/Task1.git
+f. Push code again  : git push origin main
+
 
 AWS
 1.
