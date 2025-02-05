@@ -1,0 +1,21 @@
+This documents enlists the procedure or steps folowed to execute the Project
+
+Steps:
+
+Git
+1. Initialize Git in Terminal(local system where you hve your repository)
+2. Git init the folder
+3. Git push the folder to Github
+
+AWS
+1.
+2.
+3.
+
+Python
+1.
+2
+3.
+
+
+
