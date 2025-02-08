@@ -1,8 +1,6 @@
-Hello !!
+Cloud Infrastructure Monitoring and Automation
 
-This is a GIT projec Task 1
-
-Name  : Cloud Infrastructure Monitoring and Automation
+This is a GIT project Task 1
 
 Description : This projet demostrates my skills to setup an Cloud Infrastructure namely EC2 instance.
 
