@@ -1,0 +1,2 @@
+Instance ID,Instance Type,State,CPU Utilization (%),Recommendation
+i-06a76716ea64da877,t3.micro,running,2.520750373040574,Consider stopping or resizing the instance
