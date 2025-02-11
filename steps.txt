@@ -1,55 +1,31 @@
 This documents enlists the procedure or steps folowed to execute the Project
 
-Steps:
+Step 1: Update the local machine (Ubuntu)
 
-Git
+Step 2: Initialzie Git
 1. Initialize Git in Terminal(local system where you have your repository)
 2. Git init the folder
 3. Git push the folder to Github
 
-~~Git commands
+~ git branch            (to check if you a branch)
+~ git checkout -b main  (creating a branch name main0)
+~ git add **            (add filenames **)
+~ git commit            (to commit the added files)
+~ git push origin main  (to push the committed files to main branch which is in GitHub (remote))
+~ git remote -v         (to verify remote repository)
 
-~ git branch
-(to check if you a branch)
+Step 3 : Python
+1.Install python3, boto3(AWS SDK for Python) and optionally Pandas using PIP
+2.Create a script of Monitor resources, avaiable in Scripts folder
+3.Create a script for Automating EC2 runtime, script present in Scripts folder
 
-~ git checkout -b main
-(creating a branch name main0)
-
-~ git add **
-(add filenames **)
-
-~ git commit 
-(to commit the added files)
-
-~ git push origin main
-(to push the committed files to main branch which is in GitHub (remote))
-
-~ git remote -v
-(to verify remote repository)
-
-if not set use :
-git remote add origin git@github.com:bonalation13/Task1.git
-
-if we cannot connect to remote repository in GitHub, check ssh access
-a.Create
-ssh-keygen -t rsa -b 4096 -C "bharathbonala13@yahoo.in"
-b.Add ssh key in settings of GitHub
-c.Add ssh key to ssh agent in terminal : eval "$(ssh-agent -s)"
-                                         ssh-add ~/.ssh/id_rsa
-d. Test it : ssh -T git@github.com
-e. Change git remote to SSH : git remote set-url origin git@github.com:bonalation13/Task1.git
-f. Push code again  : git push origin main
+Step 4:  AWS
+1.Login to AWS console as Root and create an EC2 Instance (choose Linux ubuntu Free tier)
+2.CreaTE an IAM user with EC2 Full access and CloudwatchFull access role policies.
+3.Create an Alarm in CloudWatch console, of CPUUtilzation and choose action of turning of EC2 when it reaches certain threshold
 
 
-AWS
-1.
-2.
-3.
-
-Python
-1.
-2
-3.
+Step 5 : Execute and Monitor
 
 
-
+|# Read the readme file to understand the execution process in detail #|
