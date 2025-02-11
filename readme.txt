@@ -11,3 +11,4 @@ Inferences : It demostrates my skill to set up VM's in AWS, monitor them and aut
              This project is used in big scale to optimize the costs of the industries using EC2 to deploy their applications.
 
 
+![Alt text](Images/Archei1.png)
